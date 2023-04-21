@@ -1,0 +1,76 @@
+*{
+    font-family: 'Netflix Sans',Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+
+
+.background-banner {
+    background-image: linear-gradient(to right,
+            rgb(0, 0, 0),
+            rgba(0, 0, 0, 0.521),rgb(0, 0, 0)), url(Images/background-banner.jpg);
+    padding: 0 50px;
+    max-height: 100%;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+}
+.lower-sections{
+    background-color: black;
+    padding: 0 3rem;
+}
+.home-content {
+    height: 550px;
+}
+
+.home-content h1 {
+    color: white;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.home-content p {
+    font-size: 18px;
+}
+
+.footer-custom ul li {
+    list-style: none;
+}
+
+.button {
+    background-color: rgb(226, 4, 4);
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: rgb(202, 4, 4);
+}
+.line {
+    display: inline-block;
+    width: 100%;
+    border-top: 0.2px solid rgb(255, 255, 255);
+  }
+  
+  /* .image_banner{
+    width: 200px;
+    height: 200px;
+  } */
+
+
+.faq {
+    height: 80px;
+    background-color: rgb(63, 62, 62);
+  }
+
+.faq-align {
+    margin-left: 20px;
+  }
+
+.faq:hover {
+    background-color: rgb(89, 89, 90) ;
+    cursor: pointer;
+  }
+
+.footer-section ul li {
+    line-height: 40px;
+  }
+#channel::placeholder {
+    color: white;
+}
